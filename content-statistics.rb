@@ -31,7 +31,7 @@ module Jekyll
       end
 
 	#calculate the approximate, average no of words written, and published on this blog, per day.
-      no_of_words_per_day_written = (no_of_words / no_of_days_writing).to_i
+      no_of_words_per_day_written = (no_of_words / no_of_posts).to_i
 
 	##print it out as a string - feel free to customise this to your hearts content.
       "<strong>~#{no_of_words}</strong>  Words Written In All Posts. <br><br> <strong>~#{no_of_days_writing}</strong>  Days Since The Start Of This Blog. <br><br> <strong>~#{no_of_posts}</strong> Posts Published Here, So Far.  <br><br> <strong>~#{no_of_words_per_day_written}</strong> Avg Words Written Per Day For This Blog. "
